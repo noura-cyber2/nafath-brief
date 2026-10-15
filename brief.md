@@ -45,4 +45,8 @@ Resource: Understand star schema and the importance for Power BI - https://learn
 
 ## Misconception in My Track
 
+A common wrong belief is that incident response only starts after an attack happens. Many people think the team just waits and then reacts when something goes wrong. This is not correct. Incident response starts much earlier, with preparation. The team must be ready before any attack: it needs a plan, trained people, and the right tools. Preparation also means preventing incidents by keeping systems, networks, and applications secure. When the team has its tools and plan ready, it can respond faster and handle incidents better. This is shown in NIST SP 800-61 Rev. 2, Section 3.1 "Preparation".
+
 ## Open Question
+
+When many alerts come at the same time, how can the team decide which incident to handle first? I would like to learn how an emergency 5G service can sort incidents by how much they affect responders.
