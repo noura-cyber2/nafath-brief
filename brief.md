@@ -26,9 +26,22 @@ Resource: Build an offline-first app - https://developer.android.com/topic/archi
 
 ## Networking
 
+5G network slicing creates separate logical networks on top of the same physical network. Each slice has its own capabilities, such as speed, delay and reliability. A dedicated slice for emergency responders would give them priority over normal users, so they can use the network first when it is busy. The slice could also support push-to-talk, video and data for emergency work. It keeps responder data apart from normal traffic, which helps security.
+
+https://www.gsma.com/newsroom/wp-content/uploads/NG.116-v3.0.pdf
+
 ## Cybersecurity
 
+Incident response has four phases. In Preparation, a company gets ready before any attack: it makes a plan, trains staff, and sets up tools. In Detection and Analysis, the team checks alerts and logs, finds what happened, and writes down every fact with the time. In Containment, Eradication and Recovery, the team stops the attack from spreading, removes the cause, and brings the 5G service back. In Post-Incident Activity, the team learns from mistakes and improves the plan.
+Resource: Computer Security Incident Handling Guide (NIST SP 800-61 Rev. 2) - 
+
+https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
+
 ## Data
+
+A star schema has one fact table in the center, with dimension tables joined directly to it. A snowflake schema splits a dimension into smaller related tables. This removes repeated data, but adds more tables and joins. For reports of usage per region per day, the star schema suits better. The fact table has one row per region per day, and the region and date dimensions connect to it. Fewer joins make reports faster and easier to build.
+
+Resource: Understand star schema and the importance for Power BI - https://learn.microsoft.com/power-bi/guidance/star-schema
 
 ## Misconception in My Track
 
