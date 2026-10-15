@@ -9,7 +9,6 @@ An emergency 5G service helps responders send and receive information fast, so e
 
 Safe methods read data and change nothing on the server. GET, HEAD, OPTIONS and TRACE are safe. Idempotent methods can be repeated: sending them once or many times gives the same result. All safe methods are idempotent, and so are PUT and DELETE. POST is not. This matters when a client automatically retries a failed request, because it may not know if the first one worked. Retrying idempotent methods is safe, but a retried POST may run twice.
 
-
 Resource: HTTP Semantics (RFC 9110) - https://www.rfc-editor.org/rfc/rfc9110
 
 ## AI
@@ -28,14 +27,13 @@ Resource: Build an offline-first app - https://developer.android.com/topic/archi
 
 5G network slicing creates separate logical networks on top of the same physical network. Each slice has its own capabilities, such as speed, delay and reliability. A dedicated slice for emergency responders would give them priority over normal users, so they can use the network first when it is busy. The slice could also support push-to-talk, video and data for emergency work. It keeps responder data apart from normal traffic, which helps security.
 
-https://www.gsma.com/newsroom/wp-content/uploads/NG.116-v3.0.pdf
+Resource: Generic Network Slice Template (GSMA NG.116 v3.0) - https://www.gsma.com/newsroom/wp-content/uploads/NG.116-v3.0.pdf
 
 ## Cybersecurity
 
 Incident response has four phases. In Preparation, a company gets ready before any attack: it makes a plan, trains staff, and sets up tools. In Detection and Analysis, the team checks alerts and logs, finds what happened, and writes down every fact with the time. In Containment, Eradication and Recovery, the team stops the attack from spreading, removes the cause, and brings the 5G service back. In Post-Incident Activity, the team learns from mistakes and improves the plan.
-Resource: Computer Security Incident Handling Guide (NIST SP 800-61 Rev. 2) - 
 
-https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
+Resource: Computer Security Incident Handling Guide (NIST SP 800-61 Rev. 2) - https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
 
 ## Data
 
